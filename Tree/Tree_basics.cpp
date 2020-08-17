@@ -258,11 +258,11 @@ int main() {
 	delete root1;
 	delete root2;
 	return 0;
-
+}
 	/*
 		Input for :					1
 							2		3		4
 								5		6
 
 	is - 1 3 2 3 4 0 2 5 6 0 0 0
-	} 
+	*/
