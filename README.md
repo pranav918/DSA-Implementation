@@ -1,5 +1,5 @@
 # DSA Implementations
-Here are data structures and algorithms implementations in C++ 
+Data structures and Algorithms implementations in C++ 
 
 There are basic implementation by name Understanding_topic.cpp or Topic_basics.\
 Important qustions are updated in topic folder. 
