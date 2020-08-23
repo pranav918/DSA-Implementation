@@ -92,10 +92,10 @@ int main() {
 	cin >> n;
 
 	// Memoization
-	start = high_resolution_clock::now();
+	auto start = high_resolution_clock::now();
 	cout << "Answer by Memoization:" << minStepsMemoization(n) << endl;
-	stop = high_resolution_clock::now();
-	duration = duration_cast<microseconds>(stop - start);
+	auto stop = high_resolution_clock::now();
+	auto duration = duration_cast<microseconds>(stop - start);
 	cout << "Time taken by Memoization:" << duration.count() << endl;
 
 	// Dynamic Programming
@@ -106,10 +106,10 @@ int main() {
 	cout << "Time taken by Dynamic Programming:" << duration.count() << endl;
 
 	// Brute Force
-	auto start = high_resolution_clock::now();
+	start = high_resolution_clock::now();
 	cout << "Answer by Brute Force Recursion:" << minStepsBruteForce(n) << endl;
-	auto stop = high_resolution_clock::now();
-	auto duration = duration_cast<microseconds>(stop - start);
+	stop = high_resolution_clock::now();
+	duration = duration_cast<microseconds>(stop - start);
 	cout << "Time taken by Brute Force Recursion:" << duration.count() << endl;
 
 	return 0;
