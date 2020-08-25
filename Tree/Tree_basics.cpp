@@ -260,7 +260,7 @@ int main() {
 	return 0;
 }
 	/*
-		Input for :					1
+		Input for :						1
 							2		3		4
 								5		6
 
