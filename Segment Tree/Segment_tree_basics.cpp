@@ -1,7 +1,7 @@
 /* Author : Pranav Deshmukh
             PICT,Pune
    Purpose: Understanding segment tree with build,modify,delete functions.
-   			Here Find sum of elements between interval is implemented.
+   	    Here Find sum of elements between interval is implemented.
    Date   : 27/08/2020.
    Stay Focused!
 */
@@ -87,6 +87,10 @@ int main() {
 	cin >> l >> r;
 	int ans = query(tree, 0, n - 1, 1, l, r);
 	cout << "Sum in given interval is : " << ans << endl;
+
+	// Deleting allocated memory:
+	delete[] arr;
+	delete[] tree;
 	return 0;
 }
 
