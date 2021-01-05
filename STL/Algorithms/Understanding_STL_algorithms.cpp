@@ -21,6 +21,9 @@ int main() {
 	sort(arr + 2, arr + 6);
 	// Sort in decreasing order
 	sort(arr, arr + 6, greater<int>());
+	
+	// Sort vector
+	sort(v.begin(),v.end(),greater<int>());
 
 	// Binary Search
 	// Must be done on sorted array.
